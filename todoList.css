@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 179, 230);
+}
+
+.allTodolist {
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 20%;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.topic {
+    margin: 0;
+    padding: 20px 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nameTodo {
+    width: 80%;
+    height: 25px;
+}
+
+.addTodo {
+    text-align: right;
+}
+
+.addTodo img {
+    width: 17px;
+    height: 15px;
+}
+
+.sizeTodoList {
+    list-style-type: none;
+    padding: 15px 10px;
+}
+
+.todo {
+    /* display: none; */
+}
+
+.fotterList {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.checkTask {
+    size: 10px;
+    align-items: center;
+}
+
+.deleteTodo {
+    padding: 5px;
+    color: aliceblue;
+    font-size: 12px;
+    background-color: brown;
+}
